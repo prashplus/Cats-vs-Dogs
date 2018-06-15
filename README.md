@@ -1,4 +1,4 @@
-# Cats VS Dogs
+# Cats vs Dogs
 
 ## Simple Classification with CNN (Convolutional Neural Network)
 
@@ -16,10 +16,20 @@ I am assuming that you have basic understanding of the Neural Networks but many 
 
 ### Setup
 
-Follow the steps given on this repository to setup you required tensorflow Environment [Link:prashplus/ML](https://github.com/prashplus/ML).
+Follow the steps given on this repository to setup you required tensorflow Environment [Link:prashplus/ML](https://github.com/prashplus/ML#setupL).
 
 ## 1. Data Preprocessing
 
+First, clone this repo and download the dataset into this folder.
+Now, run the dataprep.py file to preprocess the data.
+
+If you have already created the dataset:
+
+```python
+train_data = np.load('train_data.npy')
+```
+
+Referred from:[link](https://pythonprogramming.net/convolutional-neural-network-kats-vs-dogs-machine-learning-tutorial/)
 
 
 ## Authors
